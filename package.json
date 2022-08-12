@@ -10,6 +10,9 @@
     "dev": "microbundle watch",
     "prepublish": "yarn build"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "@electron-forge/publisher-base": "^6.0.0-beta.65",
     "@google-cloud/storage": "^6.4.0",

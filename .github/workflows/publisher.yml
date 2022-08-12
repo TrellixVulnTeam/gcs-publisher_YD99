@@ -1,4 +1,4 @@
-name: runme
+name: Publish to npm
 on: [push]
 jobs:
   check-bats-version:
@@ -10,3 +10,5 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
+      - name: Publish to npm
+      - uses: pascalgn/npm-publish-action@1.3.9

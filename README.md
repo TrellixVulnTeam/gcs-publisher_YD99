@@ -1,0 +1,1 @@
+[![npm version](https://img.shields.io/npm/v/gcs-publisher)](https://npm.im/@butterflydesignstudio/gcs-publisher)

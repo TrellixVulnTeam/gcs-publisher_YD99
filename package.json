@@ -8,7 +8,7 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "prepublish": "yarn build"
+    "prepublish": "npm run build"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
